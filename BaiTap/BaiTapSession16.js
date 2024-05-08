@@ -82,13 +82,15 @@
 
 //Viết hàm trả về tất cả các cặp số có tổng bằng 10
 
-// let Int = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let Int = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// function sum10(arr) {
-//     var i = 0;
-//     var j = arr.length - 2;
-//     for (i, j; i < j; i++, j--) {
-//         console.log(arr[i] + " va " + arr[j]);
+// const sum10 = (arr) => {
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (arr[i] + arr[j] == 10) {
+//                 console.log(arr[i] + " và " + arr[j]);
+//             }
+//         }
 //     }
 // }
 
